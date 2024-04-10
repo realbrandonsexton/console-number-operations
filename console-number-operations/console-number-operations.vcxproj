@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="console-number-operations.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="numbers.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
