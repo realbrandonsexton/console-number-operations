@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ms-dotnettools.csdevkit",
+        "sonarsource.sonarlint-vscode",
+        "maptz.camelcasenavigation",
+        "wmaurer.change-case",
+        "streetsidesoftware.code-spell-checker",
+        "yzhang.markdown-all-in-one",
+        "gruntfuggly.todo-tree",
+        "vscode-icons-team.vscode-icons"
+    ]
+}

@@ -23,10 +23,13 @@ void Sort(int arr[], int size);
 
 int main() {
     int arr[MAX_SIZE], size = 0;
+    //TODO: BS: quick fix
+    size=MAX_SIZE;
     int choice, value;
 
     //InputList(arr);
-    ReadFromFile(arr, size, "Numbers.dat");
+    //TODO: BS: should a menu option
+    ReadFromFile(arr, size, "numbers.txt");
 
     do {
         ShowMenu();
@@ -130,7 +133,7 @@ int GetTotal(int arr[], int size) {
 
 double GetAverage(int arr[], int size) {
     int total = GetTotal(arr, size);
-    return total / size;
+    return (double) total / size;
 }
 
 int GetLargest(int arr[], int size) {
